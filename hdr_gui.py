@@ -135,7 +135,7 @@ class HdrWindow(QMainWindow):
         form.addRow("intensity（2~300）", self.sp_intensity)
         form.addRow("detail（1~30）", self.sp_detail)
         form.addRow("border（1~200）", self.sp_border)
-        form.addRow("gaussParam（1~30）", self.sp_gauss)
+        form.addRow("gaussParam（0~30）", self.sp_gauss)
         panel.addWidget(grp)
 
         adv = QGroupBox("高级参数（demo 内部常量，一般保持默认）")
